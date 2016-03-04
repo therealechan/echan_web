@@ -49,3 +49,6 @@ group :development do
   gem 'spring'
 end
 
+# Use Capistrano for deployment
+gem 'capistrano', "~> 2.15.5", group: :development
+gem "rvm-capistrano", "~> 1.4.1", require: false
