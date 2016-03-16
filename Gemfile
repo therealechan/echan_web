@@ -52,3 +52,7 @@ end
 # Use Capistrano for deployment
 gem 'capistrano', "~> 2.15.5", group: :development
 gem "rvm-capistrano", "~> 1.4.1", require: false
+
+# Add Jekyll
+gem 'jekyll', '~> 3.1', '>= 3.1.2'
+gem 'jekyll', '~> 3.1', '>= 3.1.2'
