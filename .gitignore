@@ -15,3 +15,5 @@
 # Ignore for config
 config/database.yml
 /.sass-cache/*
+
+/public/blog/*
