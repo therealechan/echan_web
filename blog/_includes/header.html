@@ -1,0 +1,16 @@
+<header class="site-header">
+  <a href="{{ site.url }}" class="logo"><span class="logo"><amp-img src="{{ site.baseurl }}/{{ site.logo }}" width="48" height="48" /></span></a>
+
+  <div class="page-links">
+    {% if page.url == "/" %}
+      <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+    {% else %}
+      <a class="page-link" href="{{ site.baseurl }}/">Back to Home</a>
+    {% endif %}
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+      • <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</header>
