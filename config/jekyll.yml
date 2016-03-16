@@ -9,13 +9,27 @@
 title: "@therealechan's mind"
 email: therealechan+mx@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Just sharing my recent thoughts.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://edwardchan.in" # the base hostname & protocol for your site
+logo: "/assets/images/logo.jpg"
+paginate: 5 # The number of posts to show per page on your homepage
+
+# Author
+author_image: "/assets/images/author.jpg"
+name: Edward Chan
+bio: >
+  Husband of Karman, Father of Tiny, Photographer, Art Marker, Memories Keeper, Project Manager of BeanSmile, based in Canton China.
+
 twitter_username: therealechan
-github_username:  therealechan
+github_username:
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-compose
