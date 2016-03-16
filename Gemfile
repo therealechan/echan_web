@@ -56,3 +56,5 @@ gem "rvm-capistrano", "~> 1.4.1", require: false
 # Add Jekyll
 gem 'jekyll', '~> 3.1', '>= 3.1.2'
 gem 'jekyll', '~> 3.1', '>= 3.1.2'
+gem 'jekyll-paginate'
+gem 'jekyll-compose', group: [:jekyll_plugins]
