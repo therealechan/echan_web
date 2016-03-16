@@ -14,4 +14,4 @@
 
 # Ignore for config
 config/database.yml
-/.sass-cache
+/.sass-cache/*
