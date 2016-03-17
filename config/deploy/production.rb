@@ -1,4 +1,4 @@
-set :app_server, 'edwardchan.in'
+set :app_server, '139.162.34.183'
 set :app_url, 'http://edwardchan.in'
 set :application, app_server
 role :web, app_server
