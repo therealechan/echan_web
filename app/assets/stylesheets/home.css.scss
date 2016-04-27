@@ -17,3 +17,19 @@
   display: inline-block;
   background-color: #ffffff !important;
 }
+
+#gear {
+  padding: 85px 0;
+  color: #fff;
+  h1.gear-image {
+    font-size: 100px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #000;
+    background: image-url("gear.png") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
