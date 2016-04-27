@@ -4,9 +4,9 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
           <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">
+      <%= link_to root_path, class: "navbar-brand page-scroll" do %>
           <i class="fa fa-terminal"></i>  <span class="light">THEREALECHAN</span>
-      </a>
+      <% end %>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -16,10 +16,7 @@
           <a href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#whoami">WHOAMI</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#ping">ping</a>
+          <%= link_to 'Gear', gear_path, class: "page-scroll" %>
         </li>
         <li>
           <a class="page-scroll" href="/blog">Blog</a>
